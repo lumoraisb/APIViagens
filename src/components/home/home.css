@@ -1,0 +1,74 @@
+.Home {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: auto;
+    padding: 1.5rem 2rem;
+    margin-bottom: -0.5rem;
+}
+
+.frase_principal {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    line-height: 1.6;
+    max-width: 800px;
+    color: #333;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+
+
+.frase1,
+.frase2,
+.frase3 {
+    margin: 0.4rem 0;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.frase2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #5EC6E8;
+}
+
+.imagem_home{
+    display: none;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+/* Seção de viagens destaque na Home */
+.viagens-destaque {
+    padding: 1.5rem 2rem 3rem;
+    background-color: #f9f9f9;
+    text-align: center;
+    width: 100%;
+}
+
+.viagens-destaque h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 0 0 1.5rem 0;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.viagens-destaque .lista {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}

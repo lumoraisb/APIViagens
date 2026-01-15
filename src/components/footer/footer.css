@@ -1,0 +1,26 @@
+:root {
+        --azul-claro: #5EC6E8;   /* asas azuis / céu */
+        --laranja:    #F4A261;   /* detalhes laranja / energia */
+        --cinza-claro:#E6E6E6;   /* corpo do avião */
+        --cinza-escuro:#4A4A4A;  /* contorno */
+        --branco:     #FFFFFF;
+
+}
+
+.footer {
+    background-color: var(--azul-claro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem 2rem;
+    margin: 0;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 500;
+    min-height: 120px;
+    line-height: 1.8;
+    margin-top: 2rem;
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    gap: 10px;
+}
